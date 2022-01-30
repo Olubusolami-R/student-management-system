@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title>Dashboard</title>
   </head>
 
   <body>
-    <div id="root">
-      <div>Hello World</div>
-      <h1>Hi HI</h1>
-    </div>
-    <!-- <script src="../dist/main.bundle.js"></script> -->
+    <aside class="sidebar">
+      <img
+        src="https://image.shutterstock.com/image-photo/portrait-surprised-cat-scottish-straight-260nw-499196506.jpg"
+        alt="Photo"
+      />
+      <nav>
+        <a class="nav__link active" href="/dashboard.html">
+          <div>Dashboard</div>
+        </a>
+        <a class="nav__link" href="/student.html">
+          <div>Student Registration</div>
+        </a>
+        <a class="nav__link" href="/course.html">
+          <div>Course Registration</div>
+        </a>
+        <a class="nav__link" href="/result.html">
+          <div>Student Result</div>
+        </a>
+      </nav>
+    </aside>
+    <main class="main">
+      <h1 class="main__headline">Welcome User</h1>
+      <div class="cards">
+        <div class="card">
+          <span>Name</span>
+          <p>Adetomiwa Wesley</p>
+        </div>
+        <div class="card">
+          <span>Matric number</span>
+          <p>19CFO2689</p>
+        </div>
+        <div class="card">
+          <span>Hall/Room number</span>
+          <p>John H105</p>
+        </div>
+      </div>
+      <div class="card__below">
+        <div class="course__card">
+          <span>Registered courses</span>
+        </div>
+
+        <a href="/result.html" class="course__result">
+          <div>View your result</div></a
+        >
+      </div>
+    </main>
   </body>
 </html>

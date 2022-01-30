@@ -21,6 +21,11 @@ module.exports = {
       chunks: "all",
     },
   },
+  resolve: {
+    alias: {
+      config: path.join(__dirname, "./src/js/shared.js"),
+    },
+  },
   plugins: [].concat(
     pages.map(
       (page) =>

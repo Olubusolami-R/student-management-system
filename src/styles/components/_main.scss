@@ -1,0 +1,14 @@
+.main {
+  max-width: calc(100% - 299px);
+  background-color: $white;
+  margin-left: calc(299px + 76px);
+  margin-right: 103px;
+
+  &__headline {
+    margin-top: 80px;
+    color: $black;
+    font-size: 36px;
+    line-height: 41px;
+    margin-bottom: 80px;
+  }
+}

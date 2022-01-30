@@ -3,9 +3,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Page</title>
+    <title>Student Registration</title>
   </head>
   <body>
-    <p>What this is about page</p>
+    <aside class="sidebar">
+      <img
+        src="https://image.shutterstock.com/image-photo/portrait-surprised-cat-scottish-straight-260nw-499196506.jpg"
+        alt="Photo"
+      />
+      <nav>
+        <a class="nav__link" href="/dashboard.html">
+          <div>Dashboard</div>
+        </a>
+        <a class="nav__link active" href="/student.html">
+          <div>Student Registration</div>
+        </a>
+        <a class="nav__link" href="/course.html">
+          <div>Course Registration</div>
+        </a>
+        <a class="nav__link" href="/result.html">
+          <div>Student Result</div>
+        </a>
+      </nav>
+    </aside>
+    <main class="main">
+      <h1 class="main__headline">Student Registration</h1>
+      <form class="form" action="">
+        <div class="form__fields">
+          <label for="First name">
+            First name
+            <input type="text" />
+          </label>
+          <label for="Last name">
+            Last name
+            <input type="text" />
+          </label>
+          <label for="Guardian phone number">
+            Guardian phone number
+            <input type="text" />
+          </label>
+          <label for="Email address">
+            Email address
+            <input type="text" />
+          </label>
+          <label for="Select Hall">
+            Select Hall
+            <select name="" id="">
+              <option value="">Esther Hall</option>
+              <option value="">Rebecca Hall</option>
+              <option value="">Lydia Hall</option>
+            </select>
+          </label>
+
+          <label for="Allocated  Room Number">
+            Allocated Room Number
+            <input type="text" value="20F" disabled />
+          </label>
+
+          <label for="Programme">
+            Programme
+            <input type="text" />
+          </label>
+        </div>
+
+        <button type="submit" class="button">Register</button>
+      </form>
+    </main>
   </body>
 </html>

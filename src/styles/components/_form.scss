@@ -1,0 +1,33 @@
+.form {
+  width: 100%;
+  max-width: 600px;
+
+  label {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: $black;
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+  }
+
+  input,
+  select {
+    margin-top: 14px;
+    width: 245px;
+    border: 1px solid $ash;
+    height: 44px;
+    border-radius: 10px;
+    margin-bottom: 55px;
+  }
+}
+
+.form__fields {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type="text"]:disabled {
+  background: #eae9e9;
+}

@@ -1,0 +1,38 @@
+.sidebar {
+  width: 299px;
+  position: fixed;
+  inset: 0;
+  background-color: $grey;
+
+  img {
+    width: 71px;
+    height: 68px;
+    border-radius: 100%;
+    margin-top: 47px;
+    margin-bottom: 29px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  nav {
+    padding: 0 8px;
+  }
+}
+
+.nav__link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  margin-bottom: 22px;
+  display: block;
+  padding: 16px;
+  color: $ash-dark;
+}
+
+.nav__link.active {
+  background-color: $green;
+  border-radius: 5px;
+  color: $white;
+}

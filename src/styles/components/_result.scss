@@ -1,0 +1,49 @@
+.result__box {
+  border: 1px solid $ash;
+  border-radius: 10px;
+  max-width: 557px;
+  height: 388px;
+  padding: 50px;
+  position: relative;
+  h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 34px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td,
+  th {
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  td {
+    font-size: 14px;
+    line-height: 16px;
+    color: #747474;
+  }
+}
+
+.result__header {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 46px;
+}
+
+.cgpa {
+  position: absolute;
+  bottom: 50px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  right: 95px;
+}
